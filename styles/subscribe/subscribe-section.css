@@ -92,6 +92,9 @@
     font-weight: var(--text-normal);
     line-height: 20px;
     color: #767676;
+
+    outline: none;
+    border: none;
 }
 
 .floating-box-layout input::placeholder {
@@ -99,6 +102,10 @@
     font-weight: var(--text-normal);
     line-height: 20px;
     color: #767676;
+}
+
+.floating-box-layout input:focus {
+    outline: none;
 }
 
 .email-input-label {
