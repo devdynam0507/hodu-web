@@ -72,8 +72,6 @@ const renderModal = (modalTemplate) => {
 
     modalPanel.innerHTML = modalTemplate;
 
-    // const modalPanelChildElement = createModalPanelElement(modalTemplate);
-    // modalPanel.appendChild(modalPanelChildElement);
     modalBackdropElement.style.display = 'flex';
     modalBackdropElement.style.height = `${document.getElementsByTagName('body')[0].clientHeight}px`;
 }
