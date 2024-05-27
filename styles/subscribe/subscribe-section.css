@@ -199,6 +199,10 @@
         color: #767676;
     }
 
+    .floating-box-layout input:focus {
+        outline: none;
+    }
+
     .email-input-label > .input-email-icon {
         position: absolute;
         left: 18px;
