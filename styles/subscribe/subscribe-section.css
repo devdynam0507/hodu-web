@@ -20,10 +20,10 @@
 }
 
 .scroll-floating-button {
-    position: absolute;
+    position: fixed;
     width: 40px;
     height: 40px;
-    bottom: 19px;
+    bottom: 80px;
     right: 24px;
     border-radius: 50px;
     border: 1px solid #C4C4C4;
@@ -32,6 +32,8 @@
     background-color: #fff;
 
     transition: 0.3s background-image;
+
+    cursor: pointer;
 }
 
 .scroll-floating-button:hover {
